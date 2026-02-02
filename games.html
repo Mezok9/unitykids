@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UnityKids Games — Play Together</title>
+    <meta
+      name="description"
+      content="Play UnityKids friendship games, from kindness sprints to heart-catching mini games." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="logo" href="index.html">
+          <span class="logo__mark">UK</span>
+          <span class="logo__text">UnityKids</span>
+        </a>
+        <div class="nav__links">
+          <a href="index.html">Home</a>
+          <a href="games.html">Games</a>
+          <a href="community.html">Community</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <a class="nav__cta" href="contact.html">Join the Circle</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div>
+          <p class="eyebrow">Play &amp; connect</p>
+          <h1>Friendship games that spark joy.</h1>
+          <p class="lead">
+            UnityKids games are lightweight, meaningful, and built to make your friendship feel fun
+            every day.
+          </p>
+        </div>
+        <div class="page-hero__card">
+          <div class="card">
+            <p class="card__title">Today’s game lineup</p>
+            <ul>
+              <li>Catch the Hearts</li>
+              <li>Kindness Sprint</li>
+              <li>Memory Match</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section game">
+        <div class="section__header">
+          <h2>Catch the Hearts</h2>
+          <p>Tap the hearts before time runs out. Every heart is a kind message sent.</p>
+        </div>
+        <div class="game__board">
+          <div class="game__hud">
+            <div>
+              <span class="game__label">Score</span>
+              <strong id="score">0</strong>
+            </div>
+            <div>
+              <span class="game__label">Time</span>
+              <strong id="timer">20s</strong>
+            </div>
+            <button class="ghost" id="start-game">Start game</button>
+          </div>
+          <div class="game__field" id="game-field" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="grid">
+          <article class="feature">
+            <h3>Kindness Sprint</h3>
+            <p>Quick missions for sending love and encouragement.</p>
+          </article>
+          <article class="feature">
+            <h3>Memory Match</h3>
+            <p>Flip and match moments you’ve shared together.</p>
+          </article>
+          <article class="feature">
+            <h3>Vibe Builder</h3>
+            <p>Choose colors, stickers, and emojis to set your mood.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <h3>UnityKids</h3>
+        <p>Professional, heart-led support for your favorite person.</p>
+      </div>
+      <div class="footer__links">
+        <a href="mailto:hello@unitykids.qa">hello@unitykids.qa</a>
+        <span>© 2024 UnityKids. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
